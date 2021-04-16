@@ -8,6 +8,8 @@ def home():
     return render_template("home.html")
 
 
-@app.route("/wizardcalculator")
+@app.route("/wizard-score-sheet")
 def wizard_calculator():
-    return render_template("wizard_calculator.html")
+    return render_template("wizard-main.html")
+
+#@app.route("/wizard-score-sheet/new-game")
